@@ -1,5 +1,14 @@
 /* General reusable classes */
-
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .flex {
+    display: flex;
+  }
 
 /* General Containers (column counts within a grid) */
 .cnt-1 {
@@ -49,3 +58,5 @@
 .cnt-12 {
     width: 100%;
 }
+
+/* Page elements */
