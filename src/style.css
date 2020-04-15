@@ -1,4 +1,12 @@
 /* Default elements */
+body {
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom;
+}
+
 h1, h2, h3, h4, h5, h6, p, a {
   color: white;
 }
@@ -73,7 +81,8 @@ h1 {
 }
 
 /* Page elements */
-/* 1. Menu */
+/* 1. Home */
+/* 1.1 Menu */
 .menu {
   background-color: #ffffff;
   background-size: cover;
@@ -109,15 +118,7 @@ h1 {
   max-height: 50px;
 }
 
-/* 2. News */
-.main {
-  background-color: black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left bottom;
-}
-
+/* 1.2 News */
 .img-news {
   max-width: 300px;
   max-height: 300px;
@@ -137,6 +138,21 @@ hr {
   border-style: inset;
   border-width: 2px;
   width: 100%;
+}
+
+/* 2. About */
+/* 3. Contact us */
+/* 4. More */
+.form-class input, .form-class textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.form-class .submit-btn {
+  color: white;
+  background-color: green;
+  padding: 10px 30px;
+  border: 0;
 }
 
 /* Mobile version */
