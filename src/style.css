@@ -12,7 +12,7 @@ h1 {
   max-width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .flex {
