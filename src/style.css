@@ -138,6 +138,20 @@ ul.menu__topnav li a:hover {
     width: 100%;
   }
 
+  /* 1. Menu */
+  .logo-img {
+    display: none;
+  }
+
+  .menu {
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+  }
+  .menu ul {
+    padding-inline-start: 0;
+  }
+
   /* 2. News */
   .img-news {
     max-width: 200px;
