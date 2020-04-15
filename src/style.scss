@@ -120,6 +120,7 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: left bottom;
 }
 
 .img-news {
@@ -134,13 +135,16 @@ h1 {
     padding: 0 20px;
 }
 
-#readMore-btn {
-    columns: green;
-    background-color: white;
-    font-weight: 600;
-}
-
-#more {display: none;}
+hr {
+    display: block;
+    color: white;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+  }
 
 /* Mobile version */
 @media screen and (max-width: 600px) {
