@@ -108,6 +108,10 @@ ul.menu__topnav li a:hover {
   background-color: black;
 }
 
+.img-news {
+  max-width: 300px;
+}
+
 #readMore-btn {
   columns: green;
   background-color: white;
