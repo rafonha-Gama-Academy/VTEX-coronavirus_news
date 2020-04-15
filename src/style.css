@@ -108,9 +108,10 @@ ul.menu__topnav li a:hover {
   background-color: black;
 }
 
-.readMore-btn {
+#readMore-btn {
   columns: green;
   background-color: white;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
