@@ -82,8 +82,7 @@ h1 {
 }
 
 /* Page elements */
-/* 1. Home */
-/* 1.1 Menu */
+/* 0 Menu */
 .menu {
   background-color: #ffffff;
   background-size: cover;
@@ -119,7 +118,7 @@ h1 {
   max-height: 50px;
 }
 
-/* 1.2 News */
+/* 1. Home */
 .img-news {
   max-width: 300px;
   max-height: 300px;
@@ -142,6 +141,10 @@ hr {
 }
 
 /* 2. About */
+#about-img {
+  max-width: 300px;
+}
+
 /* 3. Contact us */
 .form-class input, .form-class textarea {
   width: 100%;
