@@ -109,8 +109,6 @@ h1 {
         max-height: 50px;
     }
 }
-  
-
 
 /* 2. News */
 .main {
@@ -119,11 +117,11 @@ h1 {
 
 .img-news {
     max-width: 300px;
-    padding: 0 15px;
+    margin: 0 15px;
 }
 
 .news-text {
-padding: 0 20px;
+    margin: 0 20px;
 }
 
 #readMore-btn {
