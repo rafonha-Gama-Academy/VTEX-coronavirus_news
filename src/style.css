@@ -136,6 +136,7 @@ hr {
   margin-top: 0.5em auto;
   border-style: inset;
   border-width: 2px;
+  width: 100%;
 }
 
 /* Mobile version */
