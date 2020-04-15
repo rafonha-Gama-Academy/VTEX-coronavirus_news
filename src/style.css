@@ -128,10 +128,16 @@ ul.menu__topnav li a:hover {
 }
 
 /* Mobile version */
-/* Mobile */
 @media screen and (max-width: 600px) {
+  /* General Containers (column counts within a grid) */
   .cnt-sm-12 {
     width: 100%;
+  }
+
+  /* 2. News */
+  .img-news {
+    max-width: 100px;
+    padding: 0;
   }
 }
 

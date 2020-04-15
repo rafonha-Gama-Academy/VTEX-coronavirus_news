@@ -129,9 +129,15 @@ h1, h2, h3, h4, h5, h6, p, a {
   #more {display: none;}
 
   /* Mobile version */
-  /* Mobile */
-@media screen and (max-width: 600px) {
-    .cnt-sm-12 {
-        width: 100%;
+    @media screen and (max-width: 600px) {
+        /* General Containers (column counts within a grid) */
+        .cnt-sm-12 {
+            width: 100%;
+        }
+
+        /* 2. News */
+        .img-news {
+            max-width: 100px;
+            padding: 0;
+        }
     }
-}
