@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left bottom;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
@@ -142,7 +143,6 @@ hr {
 
 /* 2. About */
 /* 3. Contact us */
-/* 4. More */
 .form-class input, .form-class textarea {
   width: 100%;
   padding: 5px;
@@ -153,6 +153,15 @@ hr {
   background-color: green;
   padding: 10px 30px;
   border: 0;
+}
+
+/* 4. More */
+.know-more ul {
+  list-style-type: circle;
+  color: white;
+}
+.know-more ul li {
+  padding: 10px 0;
 }
 
 /* Mobile version */

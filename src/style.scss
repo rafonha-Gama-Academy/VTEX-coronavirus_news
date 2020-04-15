@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left bottom;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
@@ -148,8 +149,6 @@ hr {
   /* 2. About */
 
   /* 3. Contact us */
-
-  /* 4. More */
   .form-class {
     input, textarea {
         width: 100%;
@@ -165,6 +164,18 @@ hr {
     }
   }
 
+/* 4. More */
+.know-more {
+    ul {
+        list-style-type: circle;
+        color: white;
+
+        li {
+            padding: 10px 0;
+        }
+    }
+}
+  
 
 /* Mobile version */
 @media screen and (max-width: 600px) {
