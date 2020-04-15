@@ -112,6 +112,7 @@ h1 {
 /* 2. News */
 .main {
   background-color: black;
+  background-size: cover;
 }
 
 .img-news {
