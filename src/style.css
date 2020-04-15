@@ -19,6 +19,10 @@ h1 {
   display: flex;
 }
 
+.space-between {
+  margin: 20px 0;
+}
+
 /* General Containers (column counts within a grid) */
 .cnt-1 {
   width: 8, 333333%;
