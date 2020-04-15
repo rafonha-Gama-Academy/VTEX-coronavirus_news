@@ -113,6 +113,8 @@ h1 {
 .main {
   background-color: black;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .img-news {
