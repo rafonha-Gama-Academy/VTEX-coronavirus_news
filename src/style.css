@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 h1 {
-  justify-content: center;
+  text-align: center;
 }
 
 /* General reusable classes */
@@ -79,16 +79,15 @@ h1 {
   top: 0;
   z-index: 99;
 }
-
-ul.menu__topnav {
+.menu ul.menu__topnav {
   list-style-type: none;
   overflow: hidden;
   align-items: center;
 }
-ul.menu__topnav li {
+.menu ul.menu__topnav li {
   justify-content: center;
 }
-ul.menu__topnav li a {
+.menu ul.menu__topnav li a {
   display: block;
   color: green;
   text-align: center;
@@ -99,11 +98,10 @@ ul.menu__topnav li a {
   line-height: 20px;
   font-weight: 400;
 }
-ul.menu__topnav li a:hover {
+.menu ul.menu__topnav li a:hover {
   font-weight: 900;
 }
-
-.logo-img {
+.menu .logo-img {
   max-height: 50px;
 }
 
