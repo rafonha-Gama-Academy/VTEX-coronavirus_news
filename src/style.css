@@ -127,4 +127,12 @@ ul.menu__topnav li a:hover {
   display: none;
 }
 
+/* Mobile version */
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .cnt-sm-12 {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
